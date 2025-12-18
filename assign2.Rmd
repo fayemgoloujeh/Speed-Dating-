@@ -1,6 +1,6 @@
 ---
 title: "Unlocking the Dynamics of Speed Dating"
-author: "Fatemeh Mahdavi Goloujeh"
+author: "Faye Mahdavi"
 date: "2024-11-19"
 output:
   html_document:
@@ -490,6 +490,7 @@ plot_ly(activity_match, x = ~avg_score, y = ~Activity, type = "bar", orientation
 ```
 </div> 
 </div> 
+
 
 
 
