@@ -3,7 +3,23 @@ navbar:
   output:
   html_document:
     toc: true
+    toc_depth: 4name: "my-website"
+
+output:
+  html_document:
+    toc: true
+    toc_float: true
     toc_depth: 4
+    css: styles.css
+
+navbar:
+  title: "my-website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+
     css: styles.css
 
   ##left:
@@ -11,3 +27,4 @@ navbar:
 #      href: index.html
 #    - text: "About"
 #      href: about.html
+
